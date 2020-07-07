@@ -17,6 +17,7 @@
 }
 .carousel-item p {
     color: gray;
+    font-size: 14px;
 }
 button {
     background-color: #000000;
@@ -27,6 +28,7 @@ button {
 }
 .card p {
     color: gray;
+    font-size: 15px;
 }
 .card img {
     padding: 50px;
@@ -59,7 +61,8 @@ button {
     background-image: url('images/bg-images/bg-2\ -\ Copy.png');
     background-repeat: no-repeat;
     background-position: left bottom;
-    background-size:100px 100px;
+    background-size: 100px 100px;
+    height: 500px;
 } 
 
 .img img {
@@ -69,11 +72,10 @@ button {
 .categories h1 {
     position: relative;
 }
-.gradient:hover h1::after {
+/* .gradient:hover h1::after {
     opacity:1;
     transition: width 1s linear .5s ease-in-out;
-
-}
+} */
 .gradient h1::after {
     content: '';
     position: absolute;
@@ -85,5 +87,5 @@ button {
     margin-top: 12px;
     border-radius: 5px;
     transition: width 1s linear .5s ease-in-out;
-    opacity: 0;
+    opacity: 1;
 }
