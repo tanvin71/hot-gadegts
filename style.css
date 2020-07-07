@@ -23,7 +23,15 @@ button {
     color: #ffffff;
     border-radius: 10px;
     padding: 10px 25px;
+    border: none;
 }
+.card p {
+    color: gray;
+}
+.card img {
+    padding: 50px;
+}
+
 .categories {
     height: 300px;
 }
