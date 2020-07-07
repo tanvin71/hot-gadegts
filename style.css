@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+}
+.col-md-6 img {
+    width: 500px;
+}
+.color {
+    background-color: orange!important;
+}
+ .container {
+    margin-bottom: 100px;
+} 
+.card {
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 10px;
+}
+.carousel-item p {
+    color: gray;
+}
+button {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+.categories {
+    height: 300px;
+}
+.cat {
+    box-shadow: 1px 1px 20px gray;
+    border-radius: 10px;
+    padding: 30px;
+}
+.see {
+    color: orange;
+}
+.middle {
+    margin-left: 0;
+}
+.cat2 {
+    margin-bottom: 20px;
+}
+.bg {
+    background-image: url('images/bg-images/bg-1\ -\ Copy.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+ .bg1 {
+    background-image: url('images/bg-images/bg-2\ -\ Copy.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size:100px 100px;
+} 
+
+.img img {
+    width: 600px;
+   
+}
+.categories h1 {
+    position: relative;
+}
+.gradient:hover h1::after {
+    opacity:1;
+    transition: width 1s linear .5s ease-in-out;
+
+}
+.gradient h1::after {
+    content: '';
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    width: 141px;
+    background-image: linear-gradient(to right, #FFBD23 40%,#FF9C35 60%);
+    height: 5px;
+    margin-top: 12px;
+    border-radius: 5px;
+    transition: width 1s linear .5s ease-in-out;
+    opacity: 0;
+}
